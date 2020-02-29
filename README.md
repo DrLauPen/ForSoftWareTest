@@ -6,18 +6,18 @@
 
 **CheckStyle**具体效果图如下:
 
-![](pic/Screen Shot 2020-02-29 at 11.23.54 AM.png)
+![](pic/5.png)
 
 **Coverlipse**具体如下:
 
-![](pic/Screen Shot 2020-02-29 at 12.29.43 PM.png)
+![](pic/3.png)
 
 ## 单元测试
 
 单元测试就比较简单,写函数然后建了对应的测试类:
 
-![](pic/Screen Shot 2020-02-29 at 12.32.42 PM.png)
+![](pic/1.png)
 
 照着[博客](https://blog.csdn.net/fulishafulisha/article/details/80158392)写完了对应的测试样例就差不多ok了,比较麻烦的数组的比较得先比较对应的长度大小,再比较对应的内容,直接比较会因为[数组地址](https://bbs.csdn.net/topics/390657835)不一样而报错.简简单单的AC:
 
-![](pic/Screen Shot 2020-02-29 at 12.22.22 PM.png)
+![](pic/4.png)
