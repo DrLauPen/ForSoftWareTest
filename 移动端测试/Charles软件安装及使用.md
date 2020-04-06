@@ -16,21 +16,21 @@ Charles是Mac操作系统下的常用的抓包工具,在做移动端开发的时
 
 ## 证书授权
 
-然后对应的要给我们的Charles安装证书.在软件左上角点击Help----SSL Proxying----Install Charles Root Certificate安装对应的证书,当然你也可以选择从官网上下载对应的证书.![Screen Shot 2020-03-23 at 4.36.18 PM](./pic/Screen Shot 2020-03-23 at 4.36.18 PM.png)
+然后对应的要给我们的Charles安装证书.在软件左上角点击Help----SSL Proxying----Install Charles Root Certificate安装对应的证书,当然你也可以选择从官网上下载对应的证书.![](./pic/Screen Shot 2020-03-23 at 4.36.18 PM.png)
 
 
 
 下载完证书会弹出对应的证书窗口,这时候证书可能因为没有呗计算机信任而未必能用,这时候需要我们点进去给证书添加信任,选中对应的证书,点击==GetInfo==查看内容,同时选择==始终相信==该证书.这下子证书就配置好了.
 
-![Screen Shot 2020-03-23 at 4.37.27 PM](./pic/Screen Shot 2020-03-23 at 4.37.27 PM.png)
+![.\pic\Screen Shot 2020-03-23 at 4.37.27 PM](./pic/Screen Shot 2020-03-23 at 4.37.27 PM.png)
 
 ## 代理管理
 
-尽管做完了上面的工作,我的Charles依旧没有任何反应,查了很久才查到是对应的代理不可以选择自动选择.需要重新在==wifi处==设置.首先选择对应的网络设置.![Screen Shot 2020-03-23 at 4.47.16 PM](./pic/Screen Shot 2020-03-23 at 4.47.16 PM.png)
+尽管做完了上面的工作,我的Charles依旧没有任何反应,查了很久才查到是对应的代理不可以选择自动选择.需要重新在==wifi处==设置.首先选择对应的网络设置.![.\pic\Screen Shot 2020-03-23 at 4.47.16 PM](./pic/Screen Shot 2020-03-23 at 4.47.16 PM.png)
 
-![Screen Shot 2020-03-23 at 4.47.26 PM](./pic/Screen Shot 2020-03-23 at 4.47.26 PM.png)
+![.\pic\Screen Shot 2020-03-23 at 4.47.26 PM](./pic/Screen Shot 2020-03-23 at 4.47.26 PM.png)
 
-点击对应的==高级功能==.在高级功能里面选择对应的关闭下面的自动设置代理的选项.![Screen Shot 2020-03-23 at 4.47.34 PM](./pic/Screen Shot 2020-03-23 at 4.47.34 PM.png)
+点击对应的==高级功能==.在高级功能里面选择对应的关闭下面的自动设置代理的选项.![.\pic\Screen Shot 2020-03-23 at 4.47.34 PM](./pic/Screen Shot 2020-03-23 at 4.47.34 PM.png)
 
 至此咱们就可以放心的使用Charles了.
 
@@ -38,7 +38,7 @@ Charles是Mac操作系统下的常用的抓包工具,在做移动端开发的时
 
 在Charles中选择Proxy---Mac os Proxy,同时开始录制即可.不一会就录制下了很多对应服务器和本地的交互信息,包括对应的URL和数据内容等.
 
-![Screen Shot 2020-03-23 at 4.58.15 PM](./pic/Screen Shot 2020-03-23 at 4.58.15 PM.png)
+![.\pic\Screen Shot 2020-03-23 at 4.58.15 PM](./pic/Screen Shot 2020-03-23 at 4.58.15 PM.png)
 
 当然同样的你也可以模拟客户端对目标服务器发送GET,POST等http协议请求.
 
