@@ -12,19 +12,19 @@
 
 
 
-![](./pic/Screen Shot 2020-04-06 at 4.49.46 PM.png)
+![](pic/Screen Shot 2020-04-06 at 4.49.46 PM.png)
 
 但是通过对SQL语句进行特殊的测试和修改我们可以得到额外的内容.例如输入1'or'1'='1,我们可以查询到所有用户的信息.
 
 
 
-![](./pic/Screen Shot 2020-04-06 at 4.50.11 PM.png)
+![](pic/Screen Shot 2020-04-06 at 4.50.11 PM.png)
 
 另外的通过适当的修改语句,我们还可以查到非当前功能应该返回的值.例如输入1' and 1=2 union select version(),database() -- 我们可以查询到当前数据库的版本等.
 
 
 
-![](./pic/Screen Shot 2020-04-06 at 4.50.57 PM.png)
+![](pic/Screen Shot 2020-04-06 at 4.50.57 PM.png)
 
 
 
@@ -42,7 +42,7 @@
 <img src="http://www.baidu.com" onmouseover=prompt(123) />
 ```
 
-![](./pic/Screen Shot 2020-04-06 at 5.05.42 PM.png)
+![](pic/Screen Shot 2020-04-06 at 5.05.42 PM.png)
 
 
 
