@@ -2,6 +2,33 @@
 
 ## 测试环境配置
 
+### python环境配置
+
+首先需要再对应的网站下载对应版本的python.
+
+对应的MAC 系统一般都自带有 Python2.x版本 的环境，你也可以在链接 https://www.python.org/downloads/mac-osx/ 上下载最新版安装。
+
+安装完对应的软件后,需要对环境变量进行相应的配置.
+
+1、打开Mac自带终端Terminal；
+ 2、进入当前用户主目录，cd ~;(默认用户目录则不需要)
+ 3、临时授权，sudo su；
+ 4、输入系统密码（加锁密码不显示输入）；
+ 5、创建.bash_profile文件，touch .bash_profile（如果存在则不必新建，可直接第六步验证后再选择是否执行此步）；
+ 6、打开.bash_profile文件，open .bash_profile（能打开则新建成功）；
+ 7、输入Python安装的路径环境变量命令：
+
+```bash
+# Setting PATH for Python 3.7
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
+export PATH
+
+alias python="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7"
+```
+
+随后保存并退出即可.
+
 ### selenium配置
 
 由于原先已经安装过python且在python3.7以后的版本中python自带对应的pip工具.
@@ -75,4 +102,6 @@ driver.execute_script("return arguments[0].play()", video)  # 开始播放
 [selenium+python实现bilibili视频播放测试](https://blog.csdn.net/u013948010/article/details/78537677?utm_source=blogxgwz0)
 
 [selenium关于页面跳转](https://www.jianshu.com/p/6b9a19957aab)
+
+[Mac OS 下安装Python并配置环境变量](https://www.jianshu.com/p/54c7ad61c5ba)
 
